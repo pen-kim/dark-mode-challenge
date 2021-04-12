@@ -7,8 +7,11 @@ export default class AppContainer extends React.Component {
 
         return (
             <div className="app-container">
+                <div className = "dark-mode">
                 {children}
+                </div>
             </div>
+
         );
     }
 
